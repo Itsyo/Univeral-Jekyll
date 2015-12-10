@@ -1,0 +1,28 @@
+/* ---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+ */
+
+//*  Normalize
+@import 'vendors/normalize/normalize.css';
+
+//* Bourbon
+@import 'vendors/bourbon/bourbon.scss';
+
+//* Neat
+@import "0-base/grid-settings"; // neat settings override
+@import 'vendors/neat/neat';
+
+//* Bootstrap
+@import 'vendors/bootstrap/bootstrap';
+
+//* Font-Awesome
+@import 'vendors/fontawesome/font-awesome';
+
+//* Base
+@import "0-base/defaultjekyll-variables";
+@import "0-base/base";
+@import "0-base/syntax-highlighting";
+
+//* Layout
+@import "1-pages/layout";

@@ -1,0 +1,27 @@
+{
+  "name": "5MF",
+  "authors": [
+    "5Fool <info@5mfcommunications.com>"
+  ],
+  "description": "Jeckyll with Bower and Gulp",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6",
+    "neat": "~1.7.2",
+    "normalize-css": "normalize.css#~3.0.3"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "bourbon": "~4.2.6",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
